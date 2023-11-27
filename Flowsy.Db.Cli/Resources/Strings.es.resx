@@ -1,0 +1,95 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="HostOrIpAddress" xml:space="preserve">
+        <value>Host o dirección IP</value>
+    </data>
+    <data name="Port" xml:space="preserve">
+        <value>Puerto</value>
+    </data>
+    <data name="ConfigurationSource" xml:space="preserve">
+        <value>Origen de configuraciones</value>
+    </data>
+    <data name="ConfigurationSourceManual" xml:space="preserve">
+        <value>Manual</value>
+    </data>
+    <data name="ConfigurationSourceEnvironment" xml:space="preserve">
+        <value>Entorno</value>
+    </data>
+    <data name="ConfigurationSectionName" xml:space="preserve">
+        <value>Nombre de la sección de configuración</value>
+    </data>
+    <data name="ConfigurationNumberX" xml:space="preserve">
+        <value>Configuración #{0}</value>
+    </data>
+    <data name="ConfigureAnotherConnection" xml:space="preserve">
+        <value>Configurar otra conexión</value>
+    </data>
+    <data name="ProviderInvariantName" xml:space="preserve">
+        <value>Nombre invariante de proveedor</value>
+    </data>
+    <data name="User" xml:space="preserve">
+        <value>Usuario</value>
+    </data>
+    <data name="Password" xml:space="preserve">
+        <value>Contraseña</value>
+    </data>
+    <data name="AdditionalOptions" xml:space="preserve">
+        <value>Opciones adicionales</value>
+    </data>
+    <data name="DatabaseProviderXIsNotSupported" xml:space="preserve">
+        <value>El proveedor de base de datos {0} no está soportado.</value>
+    </data>
+    <data name="DatabaseName" xml:space="preserve">
+        <value>Nombre de la base de datos</value>
+    </data>
+    <data name="EnterConnectionKey" xml:space="preserve">
+        <value>Introduzca una clave para identificar esta conexión</value>
+    </data>
+    <data name="BooleanAnswerNoLong" xml:space="preserve">
+        <value>No</value>
+    </data>
+    <data name="BooleanAnswerNoShort" xml:space="preserve">
+        <value>N</value>
+    </data>
+    <data name="BooleanAnswerYesLong" xml:space="preserve">
+        <value>Si</value>
+    </data>
+    <data name="BooleanAnswerYesShort" xml:space="preserve">
+        <value>S</value>
+    </data>
+    <data name="ConfigureMigrations" xml:space="preserve">
+        <value>Configurar migraciones</value>
+    </data>
+    <data name="DirectoryContainigMigrationScripts" xml:space="preserve">
+        <value>Carpeta que contiene scripts de migraciones</value>
+    </data>
+    <data name="SchemaContainingMigrationMetadata" xml:space="preserve">
+        <value>Esquema que contiene la tabla para metadatos de migraciones</value>
+    </data>
+    <data name="TableContainingMigrationMetadata" xml:space="preserve">
+        <value>Tabla para almacenar metadatos de migraciones</value>
+    </data>
+    <data name="SqlStatementToBeExecutedAfterMigrations" xml:space="preserve">
+        <value>Instrucción SQL a ejecutarse después de las migraciones</value>
+    </data>
+    <data name="ChooseDatabaseOperation" xml:space="preserve">
+        <value>Seleccione una operación de base de datos</value>
+    </data>
+    <data name="RunMigrations" xml:space="preserve">
+        <value>Ejecutar migraciones</value>
+    </data>
+    <data name="NoConfigurationWasProvided" xml:space="preserve">
+        <value>No se proporcionó ninguna configuración.</value>
+    </data>
+</root>

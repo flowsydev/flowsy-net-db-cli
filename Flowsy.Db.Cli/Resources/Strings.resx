@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="HostOrIpAddress" xml:space="preserve">
+        <value>Host or IP Address</value>
+    </data>
+    <data name="Port" xml:space="preserve">
+        <value>Port</value>
+    </data>
+    <data name="ConfigurationSource" xml:space="preserve">
+        <value>Configuration source</value>
+    </data>
+    <data name="ConfigurationSourceEnvironment" xml:space="preserve">
+        <value>Environment</value>
+    </data>
+    <data name="ConfigurationSourceManual" xml:space="preserve">
+        <value>Manual</value>
+    </data>
+    <data name="ConfigurationSectionName" xml:space="preserve">
+        <value>Configuration section name</value>
+    </data>
+    <data name="ConfigurationNumberX" xml:space="preserve">
+        <value>Configuration #{0}</value>
+    </data>
+    <data name="ConfigureAnotherConnection" xml:space="preserve">
+        <value>Configure another connection</value>
+    </data>
+    <data name="ProviderInvariantName" xml:space="preserve">
+        <value>Provider invariant name</value>
+    </data>
+    <data name="User" xml:space="preserve">
+        <value>User</value>
+    </data>
+    <data name="Password" xml:space="preserve">
+        <value>Password</value>
+    </data>
+    <data name="AdditionalOptions" xml:space="preserve">
+        <value>Additional options</value>
+    </data>
+    <data name="DatabaseProviderXIsNotSupported" xml:space="preserve">
+        <value>Database provider {0} is not supported</value>
+    </data>
+    <data name="DatabaseName" xml:space="preserve">
+        <value>Database name</value>
+    </data>
+    <data name="EnterConnectionKey" xml:space="preserve">
+        <value>Enter a key to identify this connection</value>
+    </data>
+    <data name="BooleanAnswerYesShort" xml:space="preserve">
+        <value>Y</value>
+    </data>
+    <data name="BooleanAnswerYesLong" xml:space="preserve">
+        <value>Yes</value>
+    </data>
+    <data name="BooleanAnswerNoShort" xml:space="preserve">
+        <value>N</value>
+    </data>
+    <data name="BooleanAnswerNoLong" xml:space="preserve">
+        <value>No</value>
+    </data>
+    <data name="ConfigureMigrations" xml:space="preserve">
+        <value>Configure migrations</value>
+    </data>
+    <data name="DirectoryContainigMigrationScripts" xml:space="preserve">
+        <value>Directory containing migration scripts</value>
+    </data>
+    <data name="SchemaContainingMigrationMetadata" xml:space="preserve">
+        <value>Schema containing the table for migration metadata</value>
+    </data>
+    <data name="TableContainingMigrationMetadata" xml:space="preserve">
+        <value>Table to store migration metadata</value>
+    </data>
+    <data name="SqlStatementToBeExecutedAfterMigrations" xml:space="preserve">
+        <value>SQL statement to be executed after migrations</value>
+    </data>
+    <data name="ChooseDatabaseOperation" xml:space="preserve">
+        <value>Choose a database operation</value>
+    </data>
+    <data name="RunMigrations" xml:space="preserve">
+        <value>Run migrations</value>
+    </data>
+    <data name="NoConfigurationWasProvided" xml:space="preserve">
+        <value>No configuration was provided.</value>
+    </data>
+</root>
