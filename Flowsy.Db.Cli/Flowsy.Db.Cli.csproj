@@ -23,6 +23,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="Flowsy.Db.Sql" Version="0.6.0" />
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
       <PackageReference Include="Sharprompt" Version="2.4.5" />
