@@ -117,9 +117,9 @@ namespace Flowsy.Db.Cli.Resources {
             }
         }
         
-        internal static string DatabaseProviderXIsNotSupported {
+        internal static string UnknownDatabaseProviderX {
             get {
-                return ResourceManager.GetString("DatabaseProviderXIsNotSupported", resourceCulture);
+                return ResourceManager.GetString("UnknownDatabaseProviderX", resourceCulture);
             }
         }
         

@@ -47,8 +47,8 @@
     <data name="AdditionalOptions" xml:space="preserve">
         <value>Additional options</value>
     </data>
-    <data name="DatabaseProviderXIsNotSupported" xml:space="preserve">
-        <value>Database provider {0} is not supported</value>
+    <data name="UnknownDatabaseProviderX" xml:space="preserve">
+        <value>Unknown database provider: {0}</value>
     </data>
     <data name="DatabaseName" xml:space="preserve">
         <value>Database name</value>

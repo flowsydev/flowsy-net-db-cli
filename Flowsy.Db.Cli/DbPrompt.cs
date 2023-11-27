@@ -69,8 +69,8 @@ public sealed class DbPrompt
                     var connectionKey = Prompt.Input<string>(Strings.EnterConnectionKey, placeholder: "Default, Main, Staging");
 
                     var provider = Prompt.Input<string>(Strings.ProviderInvariantName);
-                    if (!DbProvider.IsSupported(provider))
-                        throw new InvalidOperationException(Strings.DatabaseProviderXIsNotSupported);
+                    if (!DbProvider.IsKnown(provider))
+                        throw new InvalidOperationException(string.Format(Strings.UnknownDatabaseProviderX, provider));
                     
                     var host = Prompt.Input<string>(Strings.HostOrIpAddress, "localhost");
                     var port = Prompt.Input<int>(Strings.Port, DbProvider.GetDefaultPort(provider));

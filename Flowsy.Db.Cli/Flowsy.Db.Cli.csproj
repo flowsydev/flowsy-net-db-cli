@@ -15,7 +15,7 @@
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/flowsydev/flowsy-net-db-cli</RepositoryUrl>
 
-        <PackageVersion>0.1.1</PackageVersion>
+        <PackageVersion>0.2.0</PackageVersion>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
 
@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Flowsy.Db.Sql" Version="0.6.1" />
+      <PackageReference Include="Flowsy.Db.Sql" Version="0.7.0" />
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
       <PackageReference Include="Sharprompt" Version="2.4.5" />
     </ItemGroup>
