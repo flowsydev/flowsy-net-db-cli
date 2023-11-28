@@ -58,8 +58,6 @@ public sealed class DbPrompt
             case DbConfigurationSource.Manual:
             {
                 var configurations = new List<DbConnectionConfiguration>();
-                var booleanAnswerPlaceholder =
-                    $"{Strings.BooleanAnswerYesLong}/{Strings.BooleanAnswerNoLong}".ToLower();
 
                 var count = 0;
                 while (true)
@@ -82,8 +80,7 @@ public sealed class DbPrompt
                     var connectionString = DbProvider.BuildConnectionString(host, port, database, user, password, additionalOptions);
 
                     DbMigrationConfiguration? migrationConfiguration = null;
-                    var configureMigrations = Prompt.Input<string>(Strings.ConfigureMigrations, placeholder: booleanAnswerPlaceholder);
-                    if (IsPositiveAnswer(configureMigrations))
+                    if (Prompt.Confirm(Strings.ConfigureMigrations))
                     {
                         var sourceDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Migrations", connectionKey); 
                         sourceDirectory = Prompt.Input<string>(Strings.DirectoryContainigMigrationScripts, sourceDirectory);
@@ -101,8 +98,7 @@ public sealed class DbPrompt
                         Migration = migrationConfiguration
                     });
                     
-                    var configureMore = Prompt.Input<string>(Strings.ConfigureAnotherConnection, placeholder: booleanAnswerPlaceholder);
-                    if (IsNegativeAnswer(configureMore))
+                    if (!Prompt.Confirm(Strings.ConfigureAnotherConnection))
                         break;
                     
                     Console.WriteLine();

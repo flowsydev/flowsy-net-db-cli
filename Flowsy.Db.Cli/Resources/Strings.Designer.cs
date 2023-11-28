@@ -75,12 +75,6 @@ namespace Flowsy.Db.Cli.Resources {
             }
         }
         
-        internal static string ConfigurationSectionName {
-            get {
-                return ResourceManager.GetString("ConfigurationSectionName", resourceCulture);
-            }
-        }
-        
         internal static string ConfigurationNumberX {
             get {
                 return ResourceManager.GetString("ConfigurationNumberX", resourceCulture);
@@ -144,18 +138,6 @@ namespace Flowsy.Db.Cli.Resources {
         internal static string BooleanAnswerYesLong {
             get {
                 return ResourceManager.GetString("BooleanAnswerYesLong", resourceCulture);
-            }
-        }
-        
-        internal static string BooleanAnswerNoShort {
-            get {
-                return ResourceManager.GetString("BooleanAnswerNoShort", resourceCulture);
-            }
-        }
-        
-        internal static string BooleanAnswerNoLong {
-            get {
-                return ResourceManager.GetString("BooleanAnswerNoLong", resourceCulture);
             }
         }
         

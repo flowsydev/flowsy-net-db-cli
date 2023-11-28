@@ -33,9 +33,6 @@
     <data name="ConfigurationSourceManual" xml:space="preserve">
         <value>Manual</value>
     </data>
-    <data name="ConfigurationSectionName" xml:space="preserve">
-        <value>Configuration section name</value>
-    </data>
     <data name="ConfigurationNumberX" xml:space="preserve">
         <value>Configuration #{0}</value>
     </data>
@@ -68,12 +65,6 @@
     </data>
     <data name="BooleanAnswerYesLong" xml:space="preserve">
         <value>Yes</value>
-    </data>
-    <data name="BooleanAnswerNoShort" xml:space="preserve">
-        <value>N</value>
-    </data>
-    <data name="BooleanAnswerNoLong" xml:space="preserve">
-        <value>No</value>
     </data>
     <data name="ConfigureMigrations" xml:space="preserve">
         <value>Configure migrations</value>
