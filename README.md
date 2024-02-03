@@ -18,8 +18,8 @@ Let's say you create a Console Application to run certain management tasks and y
       "ConnectionString": "Server=pg.example.com;Port=5432;Database=db1;User Id=user1;Password=sup3rS3cr3t;Include Error Detail=True;",
       "Migration": { // Optional section to configure database migrations
         "SourceDirectory": "Some/Path/To/Migrations/Database1", // Path with migration scripts for 'Database1'
-        "MetadataSchema": "public", // Schema containing the table for migration metadata
-        "MetadataTable": "migration", // Table for migration metadata
+        "MetadataTableSchema": "migration", // Schema containing the table for migration metadata
+        "MetadataTableName": "changelog", // Table for migration metadata
         "InitializationStatement": "call public.populate_tables();" // Optional statement to execute after running migrations
       }
     },
@@ -28,7 +28,7 @@ Let's say you create a Console Application to run certain management tasks and y
       "ConnectionString": "Server=mysql.example.com;Port=3306;Database=db2;User Id=user2;Password=m3gaS3cr3t;",
       "Migration": { // Optional section to configure database migrations
         "SourceDirectory": "Some/Path/To/Migrations/Database2", // Path with migration scripts for 'Database2'
-        "MetadataTable": "migration", // Table for migration metadata
+        "MetadataTableName": "changelog", // Table for migration metadata
         "InitializationStatement": "call populate_tables();" // Optional statement to execute after running migrations
       }
     }

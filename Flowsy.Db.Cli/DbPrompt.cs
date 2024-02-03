@@ -1,6 +1,6 @@
-﻿using Flowsy.Db.Abstractions;
-using Flowsy.Db.Cli.Resources;
+﻿using Flowsy.Db.Cli.Resources;
 using Flowsy.Db.Sql;
+using Flowsy.Db.Sql.Migrations;
 using Microsoft.Extensions.Configuration;
 using Sharprompt;
 
@@ -85,12 +85,12 @@ public sealed class DbPrompt
                         var sourceDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Migrations", connectionKey); 
                         sourceDirectory = Prompt.Input<string>(Strings.DirectoryContainigMigrationScripts, sourceDirectory);
                         
-                        var metadataSchema = Prompt.Input<string>(Strings.SchemaContainingMigrationMetadata);
-                        var metadataTable = Prompt.Input<string>(Strings.TableContainingMigrationMetadata);
+                        var metadataTableSchema = Prompt.Input<string>(Strings.SchemaContainingMigrationMetadata);
+                        var metadataTableName = Prompt.Input<string>(Strings.TableContainingMigrationMetadata);
                         var initializationStatement = Prompt.Input<string>(Strings.SqlStatementToBeExecutedAfterMigrations);
 
                         migrationConfiguration =
-                            new DbMigrationConfiguration(sourceDirectory, metadataSchema, metadataTable, initializationStatement);
+                            new DbMigrationConfiguration(sourceDirectory, metadataTableSchema, metadataTableName, initializationStatement);
                     }
                     
                     configurations.Add(new DbConnectionConfiguration(connectionKey, provider, connectionString)
